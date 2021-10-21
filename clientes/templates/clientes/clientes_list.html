@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lista de Clientes</title>
+</head>
+<body>
+	{% for cliente in object_list %}
+	<ul>
+		<li>nome: {{ cliente.nome }}</li>
+		<li>sobrenome: {{ cliente.sobrenome }}</li>
+		<li>descrição: {{ cliente.descricao }}</li>
+	</ul>
+	{% endfor %}
+</body>
+</html>
