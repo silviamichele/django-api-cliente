@@ -1,4 +1,6 @@
 Django==3.2.8
 djangorestframework==3.12.4
 dj-rest-auth==2.1.11
-django-cors-headers==3.10.0
+django-cors-headers==3.10.
+gunicorn==20.1.0
+django-heroku==0.3.1
