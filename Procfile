@@ -1,1 +1,1 @@
-"web: gunicorn tokenproject.wsgi --log-file" 
+web:gunicorn tokenproject.wsgi 
