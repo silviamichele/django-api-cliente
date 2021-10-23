@@ -1,1 +1,1 @@
-web:gunicorn tokenproject.wsgi
+web: gunicorn tokenproject.wsgi
